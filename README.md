@@ -20,6 +20,7 @@ Dependences :
 
 Execution :
 To preprocessed raw text resume, simply run the command 
+
 python process_data.py #inside the the directory deeplearning
 
 
