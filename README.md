@@ -12,13 +12,13 @@ This module contains main 3 sub-directories
 The sub-directory preprocessing contains the class Preprocessor which is designed to 
 proprocess raw text resumes contained in the file (data/skills_it.txt). 
 
-Dependences :
+# Dependences :
 - numpy
 - nltk
 - gensim
 - spacy
 
-Execution :
+# Execution :
 To preprocessed raw text resume, simply run the command 
 
 python process_data.py #inside the the directory deeplearning
