@@ -12,7 +12,7 @@ This module contains main 3 sub-directories
 The sub-directory preprocessing contains the class Preprocessor which is designed to 
 proprocess raw text resumes contained in the file (data/skills_it.txt). 
 
-# Dependences :
+# Dependencies :
 - numpy
 - nltk
 - gensim
