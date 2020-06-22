@@ -21,11 +21,10 @@ proprocess raw text resumes contained in the file (data/skills_it.txt).
 # Execution :
 To preprocessed raw text resume, simply run the command 
 
-python process_data.py #inside the the directory deeplearning
+python process_data.py
 
+This operation creates subdatasets corresponding to the resume length in the directory output_dir/<cv_length>/ (change the path to the output_dir in the file preprocessor.py)
 
-
-This operation creates subdatasets corresponding to the resume length in the directory datasets/<cv_length>/
 The operation creates two additional files :
    - resumes_refs.py : associate a sample data id to the path of the original resume.
    - resumes_words.py : dictionary where keys are hashed words'vectors and values are corresponding words
