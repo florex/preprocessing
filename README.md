@@ -25,12 +25,16 @@ python process_data.py
 This operation creates subdatasets corresponding to the resume length in the directory output_dir/<cv_length>/ (change the path to the output_dir in the file preprocessor.py)
 
 The operation creates two additional files :
-   - resumes_refs.py : associate a sample data id to the path of the original resume.
-   - resumes_words.py : dictionary where keys are hashed words'vectors and values are corresponding words
+   - resumes_refs.py : which associates a sample data id to the path of the original resume.
+   - resumes_words.py : which represents a dictionary where keys are hashed words'vectors and values are corresponding words
 
 
-In the resulting matrices, each ligne represent the flatten form of the resume matrix
-The first column of the matrix is an integer representing the id of the resume
-The last 10 columns represents the classes of the resumes
+In the resulting matrices, each ligne represent the flatten form of the resume matrix.
+
+The first column of the matrix is an integer representing the id of the resume.
+
+The last 10 columns represents the classes of the resumes.
+
 The column between the id and the classes represent the flatten form of the matrix representing the resume.
+
 By default, each resume is encoded into a matrix of shape (500,100).
