@@ -12,6 +12,7 @@ The sub-directory preprocessing contains the class Preprocessor which is designe
 proprocess raw text resumes contained in the file (data/skills_it.txt). 
 
 # Dependencies :
+- Anaconda
 - numpy
 - nltk
 - gensim
