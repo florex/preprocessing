@@ -39,7 +39,7 @@ class Preprocessor(object):
         self.known_samples = dict()
         self.ncol = 100
         self.max_cv_count = 4000
-        self.cv_length = 700
+        self.cv_length = 500
         self.output_dir = "E:/Thèse/datasets/dws/"+str(self.cv_length)
         self.min_keywords = 20
         self.class_freq_ceil = 10
