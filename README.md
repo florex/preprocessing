@@ -9,7 +9,7 @@ This module contains main 3 sub-directories
 - preprocessing
 
 The sub-directory preprocessing contains the class Preprocessor which is designed to 
-proprocess raw text resumes contained in the file (data/skills_it.txt). 
+proprocess raw text resumes contained in the file (data/resume_samples.txt). 
 
 # Dependencies :
 - Anaconda
@@ -19,11 +19,15 @@ proprocess raw text resumes contained in the file (data/skills_it.txt).
 - spacy
 
 # Execution :
-To preprocessed raw text resume, simply run the command 
+To preprocessed raw text resumes,   
+
+First, change the path to the output_dir in the file preprocessor.py (edit the property output_dir of the class Preprocessor)
+
+Then run the command :
 
 python process_data.py
 
-This operation creates subdatasets corresponding to the resume length in the directory output_dir/<cv_length>/ (change the path to the output_dir in the file preprocessor.py)
+This operation creates subdatasets corresponding to the resume length in the directory <output_dir> 
 
 The operation creates two additional files :
    - resumes_refs.py : which associates a sample data id to the path of the original resume.
