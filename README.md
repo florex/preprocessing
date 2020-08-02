@@ -4,7 +4,7 @@ This module transforms raw resumes into matrices or vectors for training
 
 ============Folder structure==============
 
-This module contains main 3 sub-directories
+This module contains main 2 sub-directories
 - data
 - preprocessing
 
