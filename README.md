@@ -1,10 +1,10 @@
 # preprocessing
-This module transforms raw resumes into matrices or vectors for training
+This module transforms raw text resumes into matrices or vectors for training
 
 
 ============Folder structure==============
 
-This module contains main 2 sub-directories
+This module contains 2 main sub-directories
 - data
 - preprocessing
 
