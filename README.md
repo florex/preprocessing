@@ -1,7 +1,6 @@
 # preprocessing
 This module transforms raw text resumes into matrices or vectors for training
 
-
 ============Folder structure==============
 
 This module contains 2 main sub-directories
@@ -43,3 +42,6 @@ The last 10 columns represents the classes of the resumes.
 The column between the id and the classes represent the flatten form of a resume matrix.
 
 By default, each resume is encoded into a matrix of shape (500,100).
+
+# Cite this :
+Jiechieu, K.F.F., Tsopze, N. Skills prediction based on multi-label resume classification using CNN with model predictions explanation. Neural Comput & Applic (2020). https://doi.org/10.1007/s00521-020-05302-x
