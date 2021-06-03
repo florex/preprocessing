@@ -37,9 +37,9 @@ The resulting dataset is in form of a matrix :
 
 The first column of the matrix is an integer representing the id of the resume.
 
-The last 10 columns represents the classes of the resumes.
+The last 10 columns represent the classes of the resumes.
 
-The column between the id and the classes represent the flatten form of a resume matrix.
+The columns between the id and the classes represent the flatten form of a resume matrix.
 
 By default, each resume is encoded into a matrix of shape (500,100).
 
